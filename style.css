@@ -8,6 +8,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-position: center;
 }
 .body:before {
     content: ' ';
@@ -35,6 +37,7 @@
 }
 .body .logo-box{
     align-self: flex-end;
+    margin-top: 1rem;
 }
 
 .body .logo-box img {
@@ -42,7 +45,7 @@
     height: 40px;
 }
 .body .logo-box .vetp {
-    margin-left: 20rem;
+    margin-left: 13rem;
 }
 
 .container .name {
